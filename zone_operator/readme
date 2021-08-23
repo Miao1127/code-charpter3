@@ -1,0 +1,15 @@
+此包主要用于对任务分区进行初步分区划分、二次划分以及对分区一些参数进行统计。
+
+代码运行顺序以及功能：
+1.y_zoning进行初步分区；
+2.split_zone.py进行分区均衡的二次划分；
+3.outline.py统计分区轮廓栅格；
+4.vertex_zone.py统计分区顶点集合；
+5.grid_num.py统计每个分区内栅格数据；
+
+
+文件说明：
+matrix_map_data.csv用于分区划分；
+matrix_map_data_add_start.csv包含usv集群出发的#0分区；
+usv_start_position.json用于设置各个usv初始位置；
+usv1_start_position.json用于设置#1 usv初始位置；
